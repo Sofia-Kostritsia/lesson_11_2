@@ -1,0 +1,369 @@
+/*background of four photo*/
+.mountains img{
+    height: 1200px;
+    width: 100%;
+    padding-top: 46.4%;
+    z-index: -1;
+}
+.people img{
+    height: 926px;
+    width: 100%;
+    padding-top: 83%;
+    z-index: -1;
+}
+.nebo {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    padding-top: 10%;
+    z-index: -1;
+}
+.nebo img{
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0.116) 31.06%, #0B1D26 108.93%);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: -80%;
+    z-index: -1;
+}
+.ground img{
+height: auto;
+position: absolute;
+top: 1000%;
+z-index: -1;
+background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+/* the end of background code */
+
+/* page start code */
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items: center;
+}
+.mntn{
+    margin-top: 0%;
+    width: 10%;
+    font-family: Chronicle Display;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.list{
+    width: 30%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    font-family: Gilroy-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    margin-left: 3%;
+    list-style: none;
+}
+.account{
+    width: 10%;
+    font-size: 20px;
+    text-align: right;
+    font-family: Gilroy-Bold;
+    color: #FFFFFF;
+}
+.account img{
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+.header2{
+    width: 100%;
+    height: 20%;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-us{
+    color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    transform: rotate(90deg);
+    margin-right: 10%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.follow-us img{
+    margin-left: 10%;
+}
+.a-hiking-guide{
+width:50%;
+font-family: Chronicle Display;
+font-style: normal;
+font-size: 44px;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+}
+.scroll{
+    width: 25%;
+}
+/* style for blocks */
+.number{
+font-family: Gilroy-Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 240px;
+color: #FFFFFF;
+opacity: 0.1;
+z-index: 1;
+}
+h3{
+font-family: Chronicle Display;
+font-size: 60px;
+color: #FFFFFF;
+}
+.text p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+h6{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    margin-left: 12%;
+    margin-top: -5.5%;
+}
+#start{
+    margin-top: -12%;
+    margin-left: 12%;
+}
+.end{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+body{
+    background-color: #0B1D26;
+}
+.arrow-block{
+    display: flex;
+    flex-direction: row;
+}
+.arrow {
+    width: 15px;
+    height: 15px;
+    border-top: 4px solid #FBD784;
+    border-right: 4px solid #FBD784;
+    margin-left: 10px;
+    margin-top: 0.2%;
+    transform: rotate(45deg);
+}    
+.arrow2 {
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+    margin-left: 11.9%;
+    margin-top: -2.4%;
+    transform: rotate(135deg);
+} 
+.arrow-hr{
+    width: 26px;
+    height: 1.5px;
+    margin-top: 1.4%;
+    margin-left: -4%;
+}
+h5{
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+}
+.arrow-hr2{
+    height: 1px;
+    width: 28px;
+    margin-left: 10.6%;
+    margin-top: -5%;
+    background-color: #FFFFFF;
+    border-radius: 35%;
+    transform: rotate(90deg);
+}
+/*first block whith text and photo*/
+
+.block-01{
+    
+    margin-top: 50%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    height: auto;
+    justify-content: center;
+}
+.img01{
+    width: 35%;
+    height: 35%;
+    margin-left: 66%;
+    margin-top: -40%;
+}
+.one-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: -30%;
+}
+#one{
+    
+    margin-top: 0%;
+    margin-left: 5%;
+}
+hr{
+    width: 10%;
+    height: 1.5px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background: #FBD784;
+}
+
+/*second block whith text and photo*/
+
+.block-02{
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 2%;
+    height: auto;
+    display: flex;
+}
+.two-text{
+    margin-left: -10%;
+    height: 40%;
+}
+.img02{
+    width: 35%;
+    height: 35%;
+    margin-top: -7%;
+    margin-left: 10%;
+}
+#two{
+    margin-top: -11.5%;
+    margin-left: 0%;
+}
+
+/*third block whith text and photo*/
+.block-03{
+    margin-top: 20%;
+    margin-right: 4%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+}
+.third-text{
+    margin-left: -10%;
+    height: 40%;
+}
+.img03{
+    width: 35%;
+    height: 35%;
+    margin-top: -7%;
+}
+#third{
+    margin-top: -11.5%;
+    margin-left: 7%;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.more{
+    width: 25%;
+    margin-left: 33%;
+}
+.linktwo{
+    margin-right: -30%;
+    width: 20%;
+}
+.more ul{
+    flex-direction: column;
+}
+.more li{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.linktwo{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.linktwo ul{
+    flex-direction: column;
+}
+h2{
+    margin-top: 0%;
+    font-family: Chronicle Display;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.copywriting{
+    font-family: Gilroy;
+    margin-top: 20%;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.down{
+    margin-bottom: 20%;
+}
+.down-get{
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+#more{
+    
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
+#more-on{
+    
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
